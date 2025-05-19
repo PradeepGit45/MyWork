@@ -2,6 +2,7 @@ package job;
 
 import org.openqa.selenium.WebElement;
 import org.testng.ITestContext;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
@@ -10,7 +11,7 @@ public class salesOrderTest extends BaseClass {
 	@Parameters ({"type", "scenario"})
 	@Test (priority = 1)
 	
-	 public void createSO(ITestContext context, String type, String scenario)
+	 public void createSO( ITestContext context, @Optional ("") String type, @Optional ("") String scenario)
 
 	{
 		//System.out.println("Type: " + context.getAttribute("type").toString());

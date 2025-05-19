@@ -15,7 +15,7 @@ public class InvoiceTest extends BaseClass {
 
 	
 	
-	void createInvoice( @Optional ("") String scenario, ITestContext SO, String type) 
+	void createInvoice( @Optional ("") String scenario, ITestContext SO, @Optional ("") String type) 
 
 {
 			

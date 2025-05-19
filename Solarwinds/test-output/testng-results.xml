@@ -1,17 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-19T16:42:16 IST" name="Default suite" finished-at="2025-05-19T16:42:16 IST" duration-ms="63">
+  <suite started-at="2025-05-19T17:23:16 IST" name="Suite" finished-at="2025-05-19T17:23:16 IST" duration-ms="93">
     <groups>
     </groups>
-    <test started-at="2025-05-19T16:42:16 IST" name="Default test" finished-at="2025-05-19T16:42:16 IST" duration-ms="63">
+    <test started-at="2025-05-19T17:23:16 IST" name="LicenseCreation" finished-at="2025-05-19T17:23:16 IST" duration-ms="93">
+      <class name="job.salesOrderTest">
+        <test-method signature="createSO(org.testng.ITestContext,java.lang.String,java.lang.String)[pri:1, instance:job.salesOrderTest@272113c4]" started-at="2025-05-19T17:23:16 IST" name="createSO" finished-at="2025-05-19T17:23:16 IST" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@71687585]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[renew]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[FromSO]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createSO -->
+      </class> <!-- job.salesOrderTest -->
+      <class name="job.InvoiceTest">
+        <test-method signature="createInvoice(java.lang.String,org.testng.ITestContext,java.lang.String)[pri:1, instance:job.InvoiceTest@2e6a8155]" started-at="2025-05-19T17:23:16 IST" name="createInvoice" finished-at="2025-05-19T17:23:16 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FromSO]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@71687585]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[renew]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createInvoice -->
+      </class> <!-- job.InvoiceTest -->
       <class name="job.LicensingTest">
-        <test-method signature="createLicense()[pri:0, instance:job.LicensingTest@6bd61f98]" started-at="2025-05-19T16:42:16 IST" name="createLicense" finished-at="2025-05-19T16:42:16 IST" duration-ms="12" status="PASS">
+        <test-method signature="createLicense()[pri:0, instance:job.LicensingTest@6221a451]" started-at="2025-05-19T17:23:16 IST" name="createLicense" finished-at="2025-05-19T17:23:16 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createLicense -->
       </class> <!-- job.LicensingTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- LicenseCreation -->
+  </suite> <!-- Suite -->
 </testng-results>
