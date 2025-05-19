@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	
+	
+	<test name="InvoiceCreationFromSO" enabled="false">
+<parameter name="scenario" value="FromSO"></parameter>
+<parameter name="type" value="renew"></parameter>
+
+		<classes>
+			
+			<class name="job.salesOrderTest">
+				
+			</class>
+			<class name="job.InvoiceTest">
+				
+			</class>
+
+			
+
+
+		</classes>
+	</test>
+	
+	<test name="InvoiceCreationWithoutSO" enabled="true">
+		<parameter name="scenario" value=""></parameter>
+<parameter name="type" value="renew"></parameter>
+		<classes>
+			<class name="job.InvoiceTest">
+				
+			</class>
+
+			
+
+
+		</classes>
+	</test>
+	
+	 <!--
+	Test -->
+</suite> <!--
+Suite -->

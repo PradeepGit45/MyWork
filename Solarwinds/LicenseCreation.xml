@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+
+	<test name="LicenseCreation">
+
+
+		<classes>
+
+
+			<class name="job.salesOrderTest">
+				<parameter name="scenario" value="FromSO"></parameter>
+				<parameter name="type" value="renew"></parameter>
+
+			</class>
+			<class name="job.InvoiceTest">
+
+				<parameter name="scenario" value="FromSO"></parameter>
+				<parameter name="type" value="renew"></parameter>
+			</class>
+
+			<class name="job.LicensingTest">
+
+
+			</class>
+
+
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->
