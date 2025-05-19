@@ -11,7 +11,7 @@
 
 			<class name="job.salesOrderTest">
 				<parameter name="scenario" value="FromSO"></parameter>
-				<parameter name="type" value="renew"></parameter>
+				<parameter name="type" value="create"></parameter>
 
 			</class>
 			<class name="job.InvoiceTest">
