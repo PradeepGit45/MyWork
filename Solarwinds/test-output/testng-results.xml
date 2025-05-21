@@ -1,45 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-19T17:38:51 IST" name="Suite" finished-at="2025-05-19T17:38:51 IST" duration-ms="120">
+  <suite started-at="2025-05-21T13:10:33 IST" name="Suite" finished-at="2025-05-21T13:10:33 IST" duration-ms="68">
     <groups>
     </groups>
-    <test started-at="2025-05-19T17:38:51 IST" name="LicenseCreation" finished-at="2025-05-19T17:38:51 IST" duration-ms="120">
-      <class name="job.salesOrderTest">
-        <test-method signature="createSO(org.testng.ITestContext,java.lang.String,java.lang.String)[pri:1, instance:job.salesOrderTest@272113c4]" started-at="2025-05-19T17:38:51 IST" name="createSO" finished-at="2025-05-19T17:38:51 IST" duration-ms="9" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@4dc27487]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[renew]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[FromSO]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createSO -->
-      </class> <!-- job.salesOrderTest -->
+    <test started-at="2025-05-21T13:10:33 IST" name="InvoiceCreationWithoutSO" finished-at="2025-05-21T13:10:33 IST" duration-ms="68">
       <class name="job.InvoiceTest">
-        <test-method signature="createInvoice(java.lang.String,org.testng.ITestContext,java.lang.String)[pri:1, instance:job.InvoiceTest@2e6a8155]" started-at="2025-05-19T17:38:51 IST" name="createInvoice" finished-at="2025-05-19T17:38:51 IST" duration-ms="10" status="PASS">
+        <test-method signature="createInvoice(java.lang.String,org.testng.ITestContext,java.lang.String)[pri:1, instance:job.InvoiceTest@52b1beb6]" started-at="2025-05-21T13:10:33 IST" name="createInvoice" finished-at="2025-05-21T13:10:33 IST" duration-ms="10" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[FromSO]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@4dc27487]]>
+                <![CDATA[org.testng.TestRunner@47caedad]]>
               </value>
             </param>
             <param index="2">
@@ -52,12 +29,6 @@
           </reporter-output>
         </test-method> <!-- createInvoice -->
       </class> <!-- job.InvoiceTest -->
-      <class name="job.LicensingTest">
-        <test-method signature="createLicense()[pri:0, instance:job.LicensingTest@6221a451]" started-at="2025-05-19T17:38:51 IST" name="createLicense" finished-at="2025-05-19T17:38:51 IST" duration-ms="7" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createLicense -->
-      </class> <!-- job.LicensingTest -->
-    </test> <!-- LicenseCreation -->
+    </test> <!-- InvoiceCreationWithoutSO -->
   </suite> <!-- Suite -->
 </testng-results>
